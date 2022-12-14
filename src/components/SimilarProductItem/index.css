@@ -1,0 +1,53 @@
+/* Write your CSS here */
+
+.list-items-section {
+  height: 30%;
+  width: 30%;
+  list-style-type: none;
+}
+
+.s-image {
+  height: 40%;
+  width: 60%;
+  border-radius: 5px;
+}
+
+.title-s {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 60%;
+  align-items: center;
+}
+
+@media (max-width: 720px) {
+  .list-items-section {
+    height: 40%;
+    width: 100%;
+    list-style-type: none;
+  }
+
+  .s-image {
+    height: 50%;
+    width: 70%;
+    border-radius: 5px;
+  }
+
+  .title-s {
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  .section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    align-items: center;
+  }
+}
